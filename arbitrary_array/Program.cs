@@ -1,11 +1,10 @@
 ﻿// Задайте произвольный массив. Выведете его элементы, начиная с конца.
 // Использовать рекурсию, не использовать циклы.
-
-internal class Program
+public class Program
 {
     static void Main(string[] args)
     {
-        int[] array = { 1, 2, 5, 0, 10, 34 };
+        int[] array = { 0, 1, 2, 5, 6, 7, 9, 15, 23, 28, 29, 33, 48 };
         Console.WriteLine("Элементы массива, начиная с конца:");
         PrintArrayReverse(array, array.Length - 1);
     }
