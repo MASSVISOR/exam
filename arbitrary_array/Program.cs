@@ -1,7 +1,7 @@
 ﻿// Задайте произвольный массив. Выведете его элементы, начиная с конца.
 // Использовать рекурсию, не использовать циклы.
 
-class Program
+internal class Program
 {
     static void Main(string[] args)
     {
