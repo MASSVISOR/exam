@@ -11,7 +11,7 @@ Console.WriteLine($"Натуральные числа от m до n:");
 PrintNaturalNumbers(m, n);
 
 
-static void PrintNaturalNumbers(int m, int n)
+static void PrintNaturalNumbers(int m, int n);
 
     if (m <= n)
         {
